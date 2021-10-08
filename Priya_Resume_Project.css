@@ -1,0 +1,490 @@
+body{
+	margin: 0px;
+}
+
+/*Header background*/
+#body-header{
+	height :70vh;
+	background-image: url("https://wallpapercave.com/wp/wp5034115.jpg");
+	background-position: center;
+	background-size:cover ;
+	background-attachment: fixed;
+	margin: -35px 0 0 0;
+	opacity: 0.8;
+	
+	}
+	/*END HEADER BACKGROUND*/
+
+
+	/*Navigation list*/
+	.horizontal_class li{
+		display :inline-block;
+		list-style :none;
+		padding-left: 0px;
+		margin: 0px 12px 0px 12px;
+
+	}
+	/*Navigation list*/
+
+	
+
+/*Social icons*/
+#liofhead2 a i{
+		
+		color: white;
+       font-size: 1.3rem;
+		margin:0px 4px 0px 4px ;
+		}
+
+	.social-icons{
+		margin-right: 35px;
+		margin-top: -50px ;
+	}
+
+	#liofhead2 a:hover {
+         padding: 6px;
+		border: 1px solid #666666;
+		border-radius: 50%;
+		box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+       
+        
+	}
+	
+	#liofhead a:hover{
+		color:lightgray ;
+		
+		border-bottom: 1px solid darkgrey  ;
+		
+	}
+
+	#liofhead a{
+		color:white ;
+		text-decoration: none;
+		transition: color 0.5s , bottom-border 0.4s;
+	}
+	/*Social icons*/
+
+
+
+/*Navigation bar*/
+	.horizontal_class li{
+		font-family: Arial;
+		font-size: 1.3rem;
+		margin-top: 15px;
+		font-weight: 300;
+	}
+
+	.text_align{
+		text-align: center;
+	}
+
+
+
+/*My name*/
+#body-header h1{
+	margin-top: 90px;
+	font-family: sans-serif;
+	font-weight: 800;
+	font-size: 3.9rem;
+	color: rgba(255 , 255 , 255 , 1 );
+}
+
+.sidemargin{
+	margin: 0 5rem 0 5rem;
+}
+
+
+#about{
+    height: auto;
+	width: 100%;
+	position: relative;
+}
+
+#my-image{
+	height:200px;
+	width:200px ;
+	margin:auto ;
+	margin-top: -17vh;
+	}
+
+#my-image img{
+	height:100% ;
+	width:100% ;
+	border-radius: 50%;
+	border: 3px solid white;
+	box-shadow: 1px 1px 10px 2px lightgrey;
+	}
+
+#my-intro{
+	width: 70%;
+	margin: auto;
+}
+
+#my-intro p{
+	text-align: justify;
+	line-height: 28px;
+   font-size: 1.1rem;
+   color: grey;
+  font-family: sans-serif;
+   font-weight: 300;
+   
+   padding: 10px;
+}
+#my-intro p span {
+	color: blue;
+}
+
+
+
+/*section heading*/
+section:nth-child(2n){
+	background-color: rgba(242, 242, 242, 0.9);
+}
+
+.section-heading{
+	color:darkblue;
+	font-family: sans-serif;
+	font-size: 2.7rem;
+	font-weight: 560;
+	opacity: 0.9;
+margin: auto;
+margin-top: 70px;
+
+}
+
+section{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+/*end section heading*/
+
+
+/*Skills Section*/
+
+
+#skills-display {
+    width: 75%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skills-progress {
+    width: 11rem;
+    height: 2.2rem;
+    background-color: lightgrey;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+    margin: 25px;
+    overflow: hidden;
+}
+
+div.style{
+	transition: all 0.5s linear 0s;
+}
+
+.skills-progress > div {
+    border-radius: 20px 0px 0px 20px;
+    box-shadow: 1px 1px 5px 2px #989882;
+}
+
+.fifty-percent{
+	height: inherit;
+}
+.mb-blue{
+	background-color: darkblue;
+}
+
+.eighty-percent{
+	height: inherit;
+}
+.mb-cyan{
+	background-color: darkgrey;
+}
+
+.seventy-percent{
+	height: inherit;
+}
+.mb-violet{
+	background-color: violet;
+}
+
+.forty-percent{
+	height: inherit;
+}
+.mb-brown{
+	background-color: brown;
+}
+
+.sixty-percent{
+	height: inherit;
+}
+.mb-green{
+	background-color: green;
+}
+
+.eighty-five-percent{
+	height: inherit;
+}
+.mb-red{
+	background-color: darkred;
+}
+
+
+.skill-name span {
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+/*Skills Percentage end*/
+
+
+
+/*Start My portfolio*/
+#my_portfolio{
+	display: flex;
+	flex-direction: row;
+    width: 85%;
+    margin: auto;
+    margin-top: 3.1rem;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.portfolio-div{
+	height: 300px;
+	width: 300px;
+	box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+	margin: 2.5rem 1.8rem 2.5rem 1.8rem;
+
+}
+
+.portfolio-div{
+	background-position: center;
+	background-size:cover ;
+	overflow: hidden;
+	background-repeat: no-repeat;
+    position: relative;
+
+	}
+	.portfolio-div img{
+		width: 100%;
+		height: 100%;
+	}
+
+	.Portfolio-details {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+}
+.portfolio-div:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+.portfolio-div:hover .Portfolio-details {
+    background-color: #80808078;
+    color: white;
+    font-size: 2rem;
+}
+
+/*End PORTFOLIO DETAILS*/
+
+
+
+/*Experience & Education*/
+
+.alternate-sections{
+	width: 75%;
+	margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-family: sans-serif;
+    color: grey;
+    position: relative;
+}
+.alternate-sections-left-right
+{
+	padding: 5px;
+    width: 40%;
+    min-height: 150px;
+    position: relative;
+    left: 5%;
+    text-align: right;
+}
+
+.alternate-sections-left-right:nth-child(2n){
+	left: 53%;
+	text-align: left;
+}
+
+.timeline-divider{
+	height: 75%;
+	width: 0%;
+	border: 2px dashed grey;
+	left: 50%;
+	top: 12%;
+	position: absolute;
+}
+
+.timeline-divider .timeline-plane{
+position: sticky;
+ top: 12%;
+ z-index: 2;
+} 
+
+.timeline-plane i{
+	display: block;
+	 color: darkblue;
+   font-size: 2rem;
+   transform: rotate(90deg);
+   }
+
+
+
+.alternate-sections-left-right:nth-child(2n+1)::after{
+	content: '';
+	border-radius: 50%;
+	background-color: grey;
+	z-index: 1;
+	right: -11.7%;
+	height: 0.7rem;
+	width: 0.7rem;
+	position: absolute;
+	top: 30%;
+}
+.alternate-sections-left-right:nth-child(2n)::before{
+	content: '';
+	border-radius: 50%;
+	background-color: grey;
+	z-index: 1;
+	left: -5%;
+	height: 0.7rem;
+	width: 0.7rem;
+	position: absolute;
+	top: 30%;
+}
+
+@media screen and (max-width: 600px){
+	.timeline-divider{
+	left: 3%;
+}
+
+.alternate-sections-left-right{
+	left: 8% !important;
+	width: 100%;
+	text-align: left !important;
+}
+
+.alternate-sections-left-right::after{
+	left: -5% !important;
+}
+
+
+
+}
+
+.alternate-sections h2{
+	color: darkblue;
+	display: inline-block;
+	padding-bottom: 100px;
+}
+
+.alternate-sections img{
+	margin-bottom: -20px;
+	width: 60px;
+	height: 60px;
+}
+.Sub-heading{
+	margin-top: -90px;
+	color: orange;
+	font-size: 1.3rem;
+}
+
+.date{
+	margin-top: -20px;
+	color: grey;
+	font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*START CONTACT SECTION*/
+#contact-flex{
+	display: flex;
+	flex-direction: row;
+    width: 85%;
+    margin: auto;
+    margin-top: 3.1rem;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.contact_personal_details{
+	width: 3rem;
+	height: 1rem;
+	border-bottom: 2px solid white;
+
+}
+#send_msg{
+	width: 2.5rem;
+	height: 1rem;
+	border:  2px solid white;
+	font-size: 2rem;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.contact-div{
+	color: white;
+	width: 50%;
+	font-family: sans-serif;
+}
+#contact-heading{
+	color: white;
+}
+
+#contact{
+	background-image: linear-gradient(to right ,darkblue , blue);
+
+}
+#contact-social-icons{
+	margin: 5rem 0 3rem 0;
+}
+
+
+
+
+
+/*END CONTACT SECTION*/
+
+
